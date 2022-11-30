@@ -1,0 +1,238 @@
+svg {
+   color: #a9b8c5;
+}
+
+body {
+   background-color: #a9b8c5;
+}
+
+#home:hover, #team:hover, #projDesc:hover, #references:hover, #presentation:hover, #deliverables:hover, #userStories:hover {
+   background-color: #3a4478;
+}
+
+ 
+
+
+#homeSection {
+   /* background-image: url(../~410iron/images/jam.jpg); */
+   height: 500px;
+   background-image: url(../~410iron/images/pexels-photo-10568355.jpeg);
+   background-position: center;
+   background-size: cover;
+}
+
+/*
+.container {
+
+}
+*/
+
+#presentationSection {
+   background-color: white;
+}
+
+.Presentationh3 {
+   padding-top: 2%;
+   padding-bottom: 2%;
+}
+
+.Deliverableh3 {
+   padding-top: 2%;
+}
+
+.GSPresentations {
+   padding-bottom: 30%;
+   position: relative;
+   width: 50%;
+   padding-top: 25px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   padding-bottom: 2%;
+}
+
+#deliverableSection {
+   background-color: #CECCC0;
+}
+
+
+.column {
+   display: flex;
+   width: 40%;
+   padding: 5px;
+}
+
+.rowdel {
+   display: flex;
+}
+
+.rowdelcolumn {
+   max-width: 40vw;
+   padding: 2%;
+   margin-left: 1%;
+}
+
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
+}
+
+#probSection {
+   /* timberwolf - light brown */
+   background-color: #CECCC0;
+}
+
+
+#solSection {
+   /* space cadet - dark blue */
+   background-color: #2A3258;
+   color: white;
+}
+
+#userStoriesSection {
+   /* space cadet - dark blue */
+   background-color: white;
+   color: black;
+}
+
+#labSection {
+   background-color: #CECCC0;
+   text-align:center;
+   padding: 25px;
+}
+
+#labSection svg {
+   fill: #2A3258;
+}
+
+#teamSection {
+   padding: 50px 0 75px 0;
+
+   background-color: white;
+}
+
+#refSection {
+   /* space cade - dark blue */
+   background-color: #2A3258;
+   color: white;
+}
+
+.charactSection {
+   /* background-color: #2A3258; */
+   background-color: #CECCC0; 
+   /* color: white; */
+   color: black;
+   padding: 15px 50px;
+   font-size: 18px;
+}
+
+.charactSection h1 {
+   font-weight: 300;
+}
+
+.charactSection svg {
+   height: 50px;
+   fill: #2A3258;
+}
+
+.charactSection .col-md-4 {
+   padding: 36px 25px 25px 25px;
+}
+
+.charactSection .iconHeader {
+   background-color: white;
+   color: #2A3258;
+   text-align:center;
+   padding: 15px 0;
+   border-radius: 8px;
+}
+
+.charactSection .iconHeader h3 {
+   padding-top: 20px;
+}
+
+
+.solCharactSection {
+   background-color: #2A3258;
+   color: white;
+   padding: 0 50px;
+   font-size: 18px;
+}
+
+.solCharactSection h1 {
+   font-weight: 300;
+}
+
+.solCharactSection svg {
+   height: 50px;
+   fill: #2A3258;
+}
+
+.solCharactSection .col-md-4 {
+   padding: 36px 25px 25px 25px;
+}
+
+.solCharactSection .iconHeader {
+   background-color: white;
+   color: #2A3258;
+   text-align:center;
+   padding: 15px 0;
+   border-radius: 8px;
+}
+
+.solCharactSection .iconHeader h3 {
+   padding-top: 20px;
+}
+
+#oduLinkSection {
+
+   /* timberwolf - light brown */
+   background-color: #CECCC0;
+}
+
+.largerImage:hover {
+   transform: scale(1.5);
+}
+
+.largerImage1:hover {
+   transform: scale(2);
+}
+
+.moveRight:hover {
+   transform: scale(2) translateX(80px);
+}
+
+.moveLeft:hover {
+   transform: scale(2) translateX(-40px);
+}
+
+/* this is resizing things for smaller screens */
+@media screen and (max-width: 520px) {
+
+   .GSPresentations {
+      padding-bottom: 60%;
+      width: 80%;
+   }
+
+   .rowdel {
+      display:block;
+      padding: 1%;
+   }
+
+   .rowdelcolumn {
+      max-width: 80vw;
+      padding: 1%;
+      margin-left: 4%;
+   }
+}
+
+
