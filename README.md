@@ -6,7 +6,7 @@ Team Iron - Spring 2023
 - shosni2 - Sarah Hosni - shosni@odu.edu
 - ka-hull - Katelynn Hull - khull001@odu.edu
 - Aonepathan - Abdullah Pathan - 
-- Judit Chang - jchan019@odu.edu
+- JuditChang - Judit Chang - jchan019@odu.edu
 - Michael Colombini - mcolo002@odu.edu
 - Kira Maximova - kmaxi002@odu.edu
 - Gavin Rios - grios001@odu.edu
