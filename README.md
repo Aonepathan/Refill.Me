@@ -3,7 +3,7 @@ Team Iron - Spring 2023
 
 # Members
 
-- Sarah Hosni - shosni@odu.edu
+- shosni2 - Sarah Hosni - shosni@odu.edu
 - ka-hull - Katelynn Hull - khull001@odu.edu
 - Aonepathan - Abdullah Pathan - 
 - Judit Chang
