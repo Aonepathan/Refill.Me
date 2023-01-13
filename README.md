@@ -9,5 +9,5 @@ Team Iron - Spring 2023
 - Judit Chang - jchan019@odu.edu
 - Michael Colombini - mcolo002@odu.edu
 - Kira Maximova - kmaxi002@odu.edu
-- Gavin Rios - grios001@odu.edu
+- zimm16 - Gavin Rios - grios001@odu.edu
 - John Wasikye - jwasi001@odu.edu
