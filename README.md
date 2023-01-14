@@ -8,6 +8,6 @@ Team Iron - Spring 2023
 - Aonepathan - Abdullah Pathan - 
 - JuditChang - Judit Chang - jchan019@odu.edu
 - Michael Colombini - mcolo002@odu.edu
-- Kira Maximova - kmaxi002@odu.edu
+- kimaxi - Kira Maximova - kmaxi002@odu.edu
 - zimm16 - Gavin Rios - grios001@odu.edu
 - John Wasikye - jwasi001@odu.edu
