@@ -10,4 +10,4 @@ Team Iron - Spring 2023
 - Michael Colombini - mcolo002@odu.edu
 - kiramaxi - Kira Maximova - kmaxi002@odu.edu
 - zimm16 - Gavin Rios - grios001@odu.edu
-- John Wasikye - jwasi001@odu.edu
+- johnwasikye - John Wasikye - jwasi001@odu.edu
