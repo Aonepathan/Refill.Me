@@ -18,7 +18,7 @@ class Header extends HTMLElement {
                       <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
                     </a>
                     <a href="#" class="d-flex align-items-center text-white text-decoration-none" style="padding-right: 25px">
-                        <img src="../~410iron/images/Logo_timberwolf.png" alt="Logo" style="width:50px">
+                        <img src="images/Logo_timberwolf.png" alt="Logo" style="width:50px">
                         &nbsp;Refill.Me
                     </a>
                     <div class="vr"></div>
@@ -55,6 +55,7 @@ class Header extends HTMLElement {
                                     <li><a class="dropdown-item" href="#presentationF1">Feasibility v1.0</a></li>
                                     <li><a class="dropdown-item" href="#presentationF2">Feasibility v2.0</a></li>
                                     <li><a class="dropdown-item" href="#presentationDesign">Design</a></li>
+                                    <li><a class="dropdown-item" href="#presentationPrototype">Prototype</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -65,20 +66,29 @@ class Header extends HTMLElement {
                                     Deliverables
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#deliverableSection">Process Flow, Diagrams, Matrices</a></li>
+                                    <li><a class="dropdown-item" href="#processFlows">Process Flows</a></li>
+                                    <li><a class="dropdown-item" href="#mfcdCompetition">MFCD & Competition Matrix</a></li>
+                                    <li><a class="dropdown-item" href="#riskMatrices">Risk Matrices</a></li>
+                                    <li><a class="dropdown-item" href="#phoneMockups">Smartphone Mockups</a></li>
+                                    <li><a class="dropdown-item" href="#tabletMockups">Tablet Mockups</a></li>
+                                    <li><a class="dropdown-item" href="#algorithms">Algorithms</a></li>
                                     <li><a class="dropdown-item" href="#userStoriesSection">User Stories</a></li>
                                 </ul>
                             </div>
                         </li>
-                        
-                        <li>
-                        	<a href="#homeSection" id="prototype" class="nav-link text-white" aria-current="page">
-                            	<!-- <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"></use></svg>-->
-                            	    Prototype
+
+			            <li>
+			                <div class="dropdown">
+                                <a href="#" class="btn text-white dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+                                    Prototype
                                 </a>
+                                <ul class="dropdown-menu">
+				                    <li><a class="dropdown-item" href="#weeklyDevReportSection">Weekly Development Reports</a></li>
+                                    <li><a class="dropdown-item" href="#rwpVSprototypeSection">RWP vs Prototype</a></li>
+                                </ul>
+                            </div>
                         </li>
-
-
+			
                         <li>
                             <div class="dropdown">
                                 <a href="#" class="btn text-white dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
@@ -88,8 +98,9 @@ class Header extends HTMLElement {
                                     <li><a class="dropdown-item" href="#labSection">Lab 1</a></li>
                                     <li><a class="dropdown-item" href="#">Lab 2 (WIP)</a></li>
                                     <li><a class="dropdown-item" href="#">Lab 3 (WIP)</a></li>
-                                    <li><a class="dropdown-item" href="#">Glossary Page</a></li>
-                                    <li><a class="dropdown-item" href="#">References</a></li>
+                                    <li><a class="dropdown-item" href="#">Lab 4 (WIP)</a></li>
+                                    <li><a class="dropdown-item" href="#glossarySection">Glossary Page</a></li>
+                                    <li><a class="dropdown-item" href="#refSection">References</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -142,6 +153,11 @@ switch(document.title){
         Array.from(document.querySelectorAll('.nav-link')).forEach((el) => el.classList.remove('text-secondary'));
         document.getElementById("userStories").classList.remove("text-white");
         document.getElementById("userStories").classList.add("text-secondary");
+        break;
+    case 'Prototype':
+        Array.from(document.querySelectorAll('.nav-link')).forEach((el) => el.classList.remove('text-secondary'));
+        document.getElementById("prototype").classList.remove("text-white");
+        document.getElementById("prototype").classList.add("text-secondary");
         break;
     case 'References':
         Array.from(document.querySelectorAll('.nav-link')).forEach((el) => el.classList.remove('text-secondary'));
