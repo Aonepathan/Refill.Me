@@ -16,7 +16,7 @@ body {
 #homeSection {
    /* background-image: url(../~410iron/images/jam.jpg); */
    height: 500px;
-   background-image: url(../~410iron/images/pexels-photo-10568355.jpeg);
+   background-image: url(images/pexels-photo-10568355.jpeg);
    background-position: center;
    background-size: cover;
 }
@@ -99,7 +99,6 @@ iframe {
 }
 
 #userStoriesSection {
-   /* space cadet - dark blue */
    background-color: white;
    color: black;
 }
@@ -114,14 +113,27 @@ iframe {
    fill: #2A3258;
 }
 
+#weeklyDevReportSection {
+   background-color: #2A3258;
+   color: white;
+}
+
+#rwpVSprototypeSection {
+   background-color: #CECCC0;
+   color: black;
+}
+
+#glossarySection {
+   background-color: white;
+   color: black;
+}
+
 #teamSection {
    padding: 50px 0 75px 0;
-
-   background-color: white;
+   background-color: #CECCC0;
 }
 
 #refSection {
-   /* space cade - dark blue */
    background-color: #2A3258;
    color: white;
 }
@@ -200,19 +212,31 @@ iframe {
 }
 
 .largerImage:hover {
-   transform: scale(1.5);
+   transform: scale(1.7);
 }
 
 .largerImage1:hover {
-   transform: scale(2);
+   transform: scale(2.5);
+}
+
+.largerImage2:hover {
+   transform: scale(3.3);
 }
 
 .moveRight:hover {
-   transform: scale(2) translateX(80px);
+   transform: scale(2.5) translateX(80px);
 }
 
 .moveLeft:hover {
-   transform: scale(2) translateX(-40px);
+   transform: scale(2.5) translateX(-80px);
+}
+
+.moveRight2:hover {
+   transform: scale(3.3) translate(60px);
+}
+
+.moveLeft2:hover {
+   transform: scale(3.3) translate(-60px);
 }
 
 /* this is resizing things for smaller screens */

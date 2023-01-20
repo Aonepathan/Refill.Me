@@ -44,6 +44,12 @@ class SideBar extends HTMLElement {
               Presentations
             </a>
           </li>
+	  <li>
+            <a href="../~410iron/prototype" id="prototype" class="nav-link text-white">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#prototype"></use></svg>
+              Prototype
+            </a>
+          </li>
           <li>
             <a href="../~410iron/references" id="references" class="nav-link text-white">
               <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
@@ -79,6 +85,10 @@ switch(document.title){
         document.getElementById("projDesc").classList.add("active");
         break;
     case 'Presentations':
+        Array.from(document.querySelectorAll('.nav-link')).forEach((el) => el.classList.remove('active'));
+        document.getElementById("presentation").classList.add("active");
+        break;
+    case 'Prototype':
         Array.from(document.querySelectorAll('.nav-link')).forEach((el) => el.classList.remove('active'));
         document.getElementById("presentation").classList.add("active");
         break;
