@@ -85,6 +85,7 @@ class Header extends HTMLElement {
                                 <ul class="dropdown-menu">
 				                    <li><a class="dropdown-item" href="#weeklyDevReportSection">Weekly Development Reports</a></li>
                                     <li><a class="dropdown-item" href="#rwpVSprototypeSection">RWP vs Prototype</a></li>
+                                    <li><a class="dropdown-item" href="#demoSection">Prototype Demos</a></li>
                                 </ul>
                             </div>
                         </li>

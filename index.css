@@ -119,6 +119,11 @@ iframe {
 }
 
 #rwpVSprototypeSection {
+   background-color: white;
+   color: black;
+}
+
+#demoSection {
    background-color: #CECCC0;
    color: black;
 }
