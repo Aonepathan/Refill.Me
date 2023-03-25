@@ -97,7 +97,7 @@ class Header extends HTMLElement {
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#labSection">Lab 1</a></li>
-                                    <li><a class="dropdown-item" href="#">Lab 2 (WIP)</a></li>
+                                    <li><a class="dropdown-item" href="#lab2Section">Lab 2</a></li>
                                     <li><a class="dropdown-item" href="#">Lab 3 (WIP)</a></li>
                                     <li><a class="dropdown-item" href="#">Lab 4 (WIP)</a></li>
                                     <li><a class="dropdown-item" href="#glossarySection">Glossary Page</a></li>
