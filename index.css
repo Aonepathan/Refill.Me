@@ -6,7 +6,7 @@ body {
    background-color: #a9b8c5;
 }
 
-#home:hover, #team:hover, #projDesc:hover, #references:hover, #presentation:hover, #deliverables:hover, #userStories:hover {
+#home:hover, #team:hover, #projDesc:hover, #references:hover, #presentation:hover, #deliverables:hover, #userStories:hover, #poster:hover {
    background-color: #3a4478;
 }
 
@@ -119,13 +119,17 @@ iframe {
 }
 
 #rwpVSprototypeSection {
-   background-color: white;
+   background-color: #CECCC0;
    color: black;
 }
 
 #demoSection {
-   background-color: #CECCC0;
+   background-color: white;
    color: black;
+}
+
+#posterSection {
+   background-color: #CECCC0;
 }
 
 #glossarySection {

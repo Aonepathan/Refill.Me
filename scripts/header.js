@@ -107,6 +107,13 @@ class Header extends HTMLElement {
                         </li>
 
                         <li>
+                        <a href="#posterSection" id="poster" class="nav-link text-white">
+                           <!-- <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg> -->
+                            Poster
+                        </a>
+                        </li>
+
+                        <li>
                         <a href="#refSection" id="references" class="nav-link text-white">
                            <!-- <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg> -->
                             References
