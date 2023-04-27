@@ -268,4 +268,10 @@ iframe {
    }
 }
 
-
+.button1 {
+   background-color: #CECCC0;
+   text-decoration: none;
+   text-align: center;
+   border: none;
+   padding: 8px 32px;
+}
